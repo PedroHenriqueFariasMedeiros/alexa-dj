@@ -1,0 +1,45 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Toca audio do YouTube",
+          "examplePhrases": [
+            "Alexa, abra Meu DJ",
+            "Toque uma música",
+            "Pare"
+          ],
+          "name": "Meu DJ",
+          "description": "Skill para tocar audio de videos."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "N/A",
+      "category": "MUSIC_AND_AUDIO",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "interfaces": [
+            {
+                "type": "AUDIO_PLAYER"
+            }
+        ] 
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "pt-BR": {
+          "privacyPolicyUrl": "https://www.example.com/privacy", 
+          "termsOfUseUrl": "https://www.example.com/terms"
+        }
+      }
+    }
+  }
+}

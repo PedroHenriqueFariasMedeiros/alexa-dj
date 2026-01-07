@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "meu dj",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlayVideoIntent",
+                    "slots": [
+                        {
+                            "name": "videoQuery",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "toque {videoQuery}",
+                        "tocar {videoQuery}",
+                        "procure {videoQuery}",
+                        "buscar {videoQuery}",
+                        "ouvir {videoQuery}",
+                        "coloque o vídeo {videoQuery}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
